@@ -48,7 +48,7 @@ function reduce(array, fn, initial) {
 
     for (; i < array.length; i++) {
 
-        foo = fn(x, array[i], i, array);
+        foo = fn(foo, array[i], i, array);
 
     }
 
